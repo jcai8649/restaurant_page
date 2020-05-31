@@ -1,1 +1,3 @@
-console.log("hi");
+import Header from "./modules/header";
+
+Header.setHeader();
