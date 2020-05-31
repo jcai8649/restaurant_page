@@ -4,10 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Matcha Café</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="content"></div>
+    <div id="content">
+
+    <header>   
+        <nav>
+            <span id="logo">Matcha Café</span>
+            <ul class="navlist">
+                <li id="home"><a href="">Home</a></li>
+                <li id="menu"><a href="">Menu</a></li>
+                <li id="contact"><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>  
+
+    <section id="home-sec">
+        <div class="main">
+                <h3 class="headline">Traditionally Crafted.</h3>
+            <div>
+                <button class="menuBtn">View our menu</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu-sec">
+        <div>
+            <h2>Menu</h4>
+            <h4>Drinks</h4>
+            <ul>
+                <li>Matcha Milk Tea</li>
+                <li>Oolong Milk Tea</li>
+                <li>Jasmine Milk Tea</li>
+                <li>Strawberry Smoothie</li>
+            </ul>
+            <h4>Snacks</h4>
+            <ul>
+                <li>Matcha Egg Puff</li>
+                <li>Popcorn Chicken</li>
+                <li>Fried Tofu</li>
+                <li>Cream Toast</li>
+            </ul>
+            <h4>Ice Cream</h4>
+            <ul>
+                <li>Matcha</li>
+                <li>Chocolate</li>
+                <li>Vanilla</li>
+                <li>StrawBerry</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact-sec">
+        <div>
+            <h3>Give us feedback</h3>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" col="30" rows="10"required></textarea>
+                <button class="sendBtn">Send</button>
+            </form>
+        </div>
+    </section>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
