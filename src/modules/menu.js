@@ -34,7 +34,11 @@ const Menu  = (() => {
         content.appendChild(section);
     }
 
-    return {setMenu};
+    const setActive = () =>{
+        let menuli = document.getElementById("Menu");
+        menuli.classList.add("active");
+    }
+    return {setMenu, setActive};
 })();
 
 export default Menu;
