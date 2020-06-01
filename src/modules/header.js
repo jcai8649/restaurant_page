@@ -16,7 +16,6 @@ const Header = (() =>{
             let sub = document.createElement("li");
             sub.setAttribute("id", `${subject}`);
             let a = document.createElement("a");
-            a.setAttribute("onclick", "");
             a.innerText = `${subject}`;
             sub.appendChild(a);
             ulist.appendChild(sub);
