@@ -1,21 +1,21 @@
 const Header = (() =>{
     const setHeader = () => {
         const content = document.getElementById("content");
-        let header = document.createElement("header");
-        let nav = document.createElement("nav");
-        let logo = document.createElement("span");
+        const header = document.createElement("header");
+        const nav = document.createElement("nav");
+        const logo = document.createElement("span");
         logo.setAttribute("id","logo");
         logo.innerText = "Matcha Café";
 
-        let ulist = document.createElement("ul");
+        const ulist = document.createElement("ul");
         ulist.setAttribute("class", "navlist");
 
-        let navSubject = ["Home", "Menu", "Contact"];
+        const navSubject = ["Home", "Menu", "Contact"];
 
         for(let subject of navSubject){
-            let sub = document.createElement("li");
+            const sub = document.createElement("li");
             sub.setAttribute("id", `${subject}`);
-            let a = document.createElement("a");
+            const a = document.createElement("a");
             a.innerText = `${subject}`;
             sub.appendChild(a);
             ulist.appendChild(sub);

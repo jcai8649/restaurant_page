@@ -12,7 +12,7 @@ const Home = (() =>{
         mainDiv.appendChild(h3);
         const div = document.createElement("div");
         const menuButton = document.createElement("button");
-        menuButton.setAttribute("class","menuBtn");
+        menuButton.setAttribute("id","menuBtn");
         menuButton.innerText = "View our menu";
         div.appendChild(menuButton);
         mainDiv.appendChild(div);
