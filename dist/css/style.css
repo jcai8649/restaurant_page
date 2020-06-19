@@ -60,17 +60,20 @@ a:hover{
 
 #menuBtn{
     padding: 13px 23px;
-    background-color:transparent;
+    background-color: #69bf64;
+    opacity: 80%;
     border-radius: 5px;
     font-size: 15px;
-    color: #69bf64;
+    color: WHITE;
     outline:none;
+    transition: all 1s;
 }
 
 #menuBtn:hover{
     background-color:#69bf64;
     color:black;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .headline{
